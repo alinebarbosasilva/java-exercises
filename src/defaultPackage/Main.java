@@ -4,22 +4,124 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class Main {
-  public static void main(String[] args){
-      Scanner sc = new Scanner(System.in);
 
-      String s1, s2, s3;
-      int x;
+    public static void main(String[] args) {
+        Locale.setDefault(Locale.US);
+        Scanner sc = new Scanner(System.in);
 
-      x = sc.nextInt();
-      sc.nextLine();
-      s1 = sc.nextLine();
-      s2 = sc.nextLine();
-      s3 = sc.nextLine();
+//        char resp = 's';
+//
+//        while(resp != 'n'){
+//            System.out.print("Digite a temperatura em Celsius: ");
+//            double C = sc.nextDouble();
+//            double F = 9.0 * C / 5.0 + 32;
+//            System.out.printf("Equivalente em Fahrenheit: %.1f%n", F);
+//            System.out.print("Deseja repetir (s/n)?: ");
+//            resp = sc.next().charAt(0);
+//        }
 
-      System.out.println(x);
-      System.out.println(s1);
-      System.out.println(s2);
-      System.out.println(s3);
+        char resp;
+       do {
+            System.out.print("Digite a temperatura em Celsius: ");
+            double C = sc.nextDouble();
+            double F = 9.0 * C / 5.0 + 32;
+            System.out.printf("Equivalente em Fahrenheit: %.1f%n", F);
+            System.out.print("Deseja repetir (s/n)?: ");
+            resp = sc.next().charAt(0);
+        }  while(resp != 'n');
+
+        sc.close();
+    }
+
+
+
+//    public static void main(String[] args) {
+//        Scanner sc = new Scanner(System.in);
+//
+//        int n = sc.nextInt();
+//        int sum = 0;
+//
+//        for(int i = 0; i < n; i++) {
+//            int x = sc.nextInt();
+//             sum += x;
+//        }
+//
+//        System.out.println(sum);
+//        sc.close();
+//    }
+
+
+//    public static void main(String[] args) {
+//        Scanner sc = new Scanner(System.in);
+//
+//        int x = sc.nextInt();
+//        int sum = 0;
+//
+//        while (x != 0) {
+//            sum += x;
+//            x = sc.nextInt();
+//        }
+//
+//        System.out.println(sum);
+//        sc.close();
+//    }
+
+
+//    public static void main(String[] args) {
+//        Scanner sc = new Scanner(System.in);
+//
+//        int hora;
+//        System.out.println("Quantas horas?");
+//        hora = sc.nextInt();
+//
+//        if (hora < 12) {
+//            System.out.println("Bom dia");
+//        } else if (hora < 18) {
+//            System.out.println("Boa tarde");
+//        } else {
+//            System.out.println("Boa noite");
+//        }
+//
+//        sc.close();
+//    }
+//
+
+
+//    public static void main(String[] args) {
+//        Scanner sc = new Scanner(System.in);
+//
+//        int hora;
+//        System.out.println("Quantas horas?");
+//        hora = sc.nextInt();
+//
+//        if(hora < 12){
+//            System.out.println("Bom dia");
+//        }else{
+//            System.out.println("Boa tarde");
+//        }
+//
+//        sc.close();
+//
+//
+//    }
+
+//  public static void main(String[] args) {
+//      Scanner sc = new Scanner(System.in);
+//
+//      String s1, s2, s3;
+//      int x;
+//
+//      x = sc.nextInt();
+//      sc.nextLine();
+//      s1 = sc.nextLine();
+//      s2 = sc.nextLine();
+//      s3 = sc.nextLine();
+//
+//      System.out.println(x);
+//      System.out.println(s1);
+//      System.out.println(s2);
+//      System.out.println(s3);
+//  }
 
 //      Locale.setDefault(Locale.US);
 //      Scanner sc = new Scanner(System.in);
@@ -74,11 +176,6 @@ public class Main {
 //      System.out.println(income);
 //
 //      sc.close();
-
-    
-
-  }
-
 
 //    public static void main(String[] args) {
 //
@@ -150,7 +247,7 @@ public class Main {
 //    }
 //
 //
-    //Casting
+//Casting
 //        double a;
 //        int b ;
 //        a = 5.0;
@@ -158,6 +255,6 @@ public class Main {
 //
 //        System.out.println(b);
 
+//}
+
 }
-
-
