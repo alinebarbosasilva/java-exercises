@@ -256,4 +256,229 @@ public class Main {
 
 //}
 
+//---------------------------------------------------------------------------------------------------------------------- EXERCISES
+//public static void main(String[] args) {
+//    Locale.setDefault(Locale.US);
+//    Scanner sc = new Scanner(System.in);
+//
+//    double width = sc.nextDouble();
+//    double length = sc.nextDouble();
+//    double squareMeter = sc.nextDouble();
+//
+//    double area = width * length;
+//
+//    double price = area * squareMeter;
+//
+//    System.out.printf("AREA:  %.2f%n", area);
+//    System.out.printf("PRECO %.2f%n", price);
+//
+//    sc.close();
+//}
+
+//    public static void main(String[] args) {
+//        Scanner sc = new Scanner(System.in);
+//
+//        int number = sc.nextInt();
+//
+//        if(number < 0){
+//            System.out.println("NEGATIVO" );
+//        }else {
+//            System.out.println("POSITIVO");
+//        }
+//
+//        sc.close();
+//    }
+
+//    public static void main(String[] args) {
+//        Scanner sc = new Scanner(System.in);
+//
+//        int number = sc.nextInt();
+//
+//        if(number / 2 == 0){
+//            System.out.println("PAR" );
+//        }else {
+//            System.out.println("IMPAR");
+//        }
+//
+//        sc.close();
+//    }
+
+
+
+//    public static void main(String[] args) {
+//        Scanner sc = new Scanner(System.in);
+//        int A, B;
+//
+//         A = sc.nextInt();
+//         B = sc.nextInt();
+//
+//        if(A % B == 0 || B % A == 0){
+//            System.out.println("Sao Multiplos" );
+//        }else {
+//            System.out.println("Nao sao Multiplo");
+//        }
+//
+//        sc.close();
+//    }
+
+
+
+//    public static void main(String[] args) {
+//
+//        Scanner sc = new Scanner(System.in);
+//
+//        int startHour = sc.nextInt();
+//        int endHour = sc.nextInt();
+//
+//        int period;
+//        if (startHour < endHour) {
+//            period = endHour - startHour;
+//        }
+//        else {
+//            period = 24 - startHour + endHour;
+//        }
+//
+//        System.out.println("O JOGO DUROU " + period + " HORA(S)");
+//
+//        sc.close();
+//    }
+//}
+
+
+
+//    public static void main(String[] args){
+//        Locale.setDefault(Locale.US);
+//        Scanner sc = new Scanner(System.in);
+//
+//        double width = sc.nextDouble();
+//        double length = sc.nextDouble();
+//        double squareMeter = sc.nextDouble();
+//
+//        double area = width * length;
+//
+//        double price = area * squareMeter;
+//
+//        System.out.printf("AREA:  %.2f%n", area);
+//        System.out.printf("PRECO %.2f%n" , price);
+//
+//        sc.close();
+//    }
+
+//    public static void main(String[] args) {
+//        Locale.setDefault(Locale.US);
+//        Scanner sc = new Scanner(System.in);
+//
+//        int firstNumber = sc.nextInt();
+//        int secondNumber = sc.nextInt();
+//        int sum = firstNumber + secondNumber;
+//
+//        System.out.printf("SOMA: %d", sum);
+//
+//        sc.close();
+//
+//    }
+
+//    public static void main(String[] args) {
+//        Locale.setDefault(Locale.US);
+//        Scanner sc = new Scanner(System.in);
+//
+//        double valueRadius = sc.nextDouble();
+//        double pi = 3.14159;
+//        double calc = pi * Math.pow(valueRadius, 2.0);
+//
+//        System.out.printf("A: %.4f", calc);
+//        sc.close();
+//    }
+//    public static void main(String[] args) {
+//        Locale.setDefault(Locale.US);
+//        Scanner sc = new Scanner(System.in);
+//
+//        int A, B, C, D, difference;
+//
+//
+//        A = sc.nextInt();
+//        B = sc.nextInt();
+//        C = sc.nextInt();
+//        D = sc.nextInt();
+//
+//        difference = A * B - C * D;
+//
+//        System.out.println("DIFERENCA = " + difference);
+//        sc.close();
+//    }
+
+
+//    public static void main(String[] args) {
+//        Locale.setDefault(Locale.US);
+//        Scanner sc = new Scanner(System.in);
+//
+//        int employeesNumber, numberHoursWorked;
+//        double amountReceivedPerHour, salary;
+//
+//        employeesNumber = sc.nextInt();
+//        numberHoursWorked = sc.nextInt();
+//        amountReceivedPerHour = sc.nextDouble();
+//
+//        salary = numberHoursWorked * amountReceivedPerHour;
+//
+//        System.out.println("NUMBER = " + employeesNumber);
+//        System.out.printf("SALARY = U$ %.2f", salary);
+//
+//        sc.close();
+//    }
+
+
+//    public static void main(String[] args) {
+//        Locale.setDefault(Locale.US);
+//        Scanner sc = new Scanner(System.in);
+//
+//        int codeFirstPiece, quantityFirstPiece,
+//            codeSecondPiece, quantitySecondPiece;
+//        double priceFirstPiece, priceSecondPiece, total;
+//
+//        codeFirstPiece = sc.nextInt();
+//        quantityFirstPiece = sc.nextInt();
+//        priceFirstPiece = sc.nextDouble();
+//
+//        codeSecondPiece = sc.nextInt();
+//        quantitySecondPiece = sc.nextInt();
+//        priceSecondPiece = sc.nextDouble();
+//
+//
+//        total = (priceFirstPiece * quantityFirstPiece) + (priceSecondPiece * quantitySecondPiece);
+//
+//        System.out.printf("VALOR A PAGAR: R$ %.2f%n", total);
+//        sc.close();
+//    }
+
+
+//    public static void main(String[] args) {
+//        Locale.setDefault(Locale.US);
+//        Scanner sc = new Scanner(System.in);
+//
+//        double A, B, C, rectangle, triangle, circle, trapezium, square;
+//
+//        A = sc.nextDouble();
+//        B = sc.nextDouble();
+//        C = sc.nextDouble();
+//
+//        triangle = A * C / 2.0;
+//        circle = 3.14159 * C * C;
+//        trapezium = (A + B) / 2.0 * C;
+//        square = B * B;
+//        rectangle = A * B;
+//
+//        System.out.printf(
+//                "TRIANGULO: %.3f%n" +
+//                "CIRCULO: %.3f%n" +
+//                "TRAPEZIO: %.3f%n" +
+//                "QUADRADO:%.3f%n" +
+//                "RETANGULO %.3f%n ", triangle, circle, trapezium, square, rectangle );
+//
+//        sc.close();
+//    }
+
 }
+
+
+
